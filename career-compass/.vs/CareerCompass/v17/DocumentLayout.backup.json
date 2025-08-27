@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\2161845\\Desktop\\career-compass\\career-compass\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{991C4844-C711-4B15-9E17-EA5DE24751C0}|CareerCompass.csproj|c:\\users\\2161845\\desktop\\career-compass\\career-compass\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{991C4844-C711-4B15-9E17-EA5DE24751C0}|CareerCompass.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{991C4844-C711-4B15-9E17-EA5DE24751C0}|CareerCompass.csproj|c:\\users\\2161845\\desktop\\career-compass\\career-compass\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{991C4844-C711-4B15-9E17-EA5DE24751C0}|CareerCompass.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{991C4844-C711-4B15-9E17-EA5DE24751C0}|CareerCompass.csproj|c:\\users\\2161845\\desktop\\career-compass\\career-compass\\webapplication1.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{991C4844-C711-4B15-9E17-EA5DE24751C0}|CareerCompass.csproj|solutionrelative:webapplication1.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{991C4844-C711-4B15-9E17-EA5DE24751C0}|CareerCompass.csproj|c:\\users\\2161845\\desktop\\career-compass\\career-compass\\models\\cv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{991C4844-C711-4B15-9E17-EA5DE24751C0}|CareerCompass.csproj|solutionrelative:models\\cv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{991C4844-C711-4B15-9E17-EA5DE24751C0}|CareerCompass.csproj|c:\\users\\2161845\\desktop\\career-compass\\career-compass\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{991C4844-C711-4B15-9E17-EA5DE24751C0}|CareerCompass.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{991C4844-C711-4B15-9E17-EA5DE24751C0}|CareerCompass.csproj|c:\\users\\2161845\\desktop\\career-compass\\career-compass\\controllers\\cvscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{991C4844-C711-4B15-9E17-EA5DE24751C0}|CareerCompass.csproj|solutionrelative:controllers\\cvscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{991C4844-C711-4B15-9E17-EA5DE24751C0}|CareerCompass.csproj|c:\\users\\2161845\\desktop\\career-compass\\career-compass\\data\\careercompasscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{991C4844-C711-4B15-9E17-EA5DE24751C0}|CareerCompass.csproj|solutionrelative:data\\careercompasscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{991C4844-C711-4B15-9E17-EA5DE24751C0}|CareerCompass.csproj|c:\\users\\2161845\\desktop\\career-compass\\career-compass\\careercompass.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{991C4844-C711-4B15-9E17-EA5DE24751C0}|CareerCompass.csproj|solutionrelative:careercompass.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WebApplication1.http",
+              "DocumentMoniker": "C:\\Users\\2161845\\Desktop\\career-compass\\career-compass\\WebApplication1.http",
+              "RelativeDocumentMoniker": "WebApplication1.http",
+              "ToolTip": "C:\\Users\\2161845\\Desktop\\career-compass\\career-compass\\WebApplication1.http",
+              "RelativeToolTip": "WebApplication1.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-08-27T16:24:08.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CareerCompassContext.cs",
+              "DocumentMoniker": "C:\\Users\\2161845\\Desktop\\career-compass\\career-compass\\Data\\CareerCompassContext.cs",
+              "RelativeDocumentMoniker": "Data\\CareerCompassContext.cs",
+              "ToolTip": "C:\\Users\\2161845\\Desktop\\career-compass\\career-compass\\Data\\CareerCompassContext.cs",
+              "RelativeToolTip": "Data\\CareerCompassContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T22:08:59.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\2161845\\Desktop\\career-compass\\career-compass\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\2161845\\Desktop\\career-compass\\career-compass\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-25T22:08:08.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CVsController.cs",
+              "DocumentMoniker": "C:\\Users\\2161845\\Desktop\\career-compass\\career-compass\\Controllers\\CVsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CVsController.cs",
+              "ToolTip": "C:\\Users\\2161845\\Desktop\\career-compass\\career-compass\\Controllers\\CVsController.cs",
+              "RelativeToolTip": "Controllers\\CVsController.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T22:07:42.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CV.cs",
+              "DocumentMoniker": "C:\\Users\\2161845\\Desktop\\career-compass\\career-compass\\Models\\CV.cs",
+              "RelativeDocumentMoniker": "Models\\CV.cs",
+              "ToolTip": "C:\\Users\\2161845\\Desktop\\career-compass\\career-compass\\Models\\CV.cs",
+              "RelativeToolTip": "Models\\CV.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwBoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T21:57:02.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\2161845\\Desktop\\career-compass\\career-compass\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\2161845\\Desktop\\career-compass\\career-compass\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T21:50:14.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\2161845\\Desktop\\career-compass\\career-compass\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\2161845\\Desktop\\career-compass\\career-compass\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T21:34:29.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CareerCompass.csproj",
+              "DocumentMoniker": "C:\\Users\\2161845\\Desktop\\career-compass\\career-compass\\CareerCompass.csproj",
+              "RelativeDocumentMoniker": "CareerCompass.csproj",
+              "ToolTip": "C:\\Users\\2161845\\Desktop\\career-compass\\career-compass\\CareerCompass.csproj",
+              "RelativeToolTip": "CareerCompass.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-25T22:02:15.616Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
