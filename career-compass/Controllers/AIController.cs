@@ -42,7 +42,10 @@ namespace CareerCompass.Controllers
                 {
                     new {
                         role="user",
-                        content=$"Here is a resume:\n{req.ResumeText}\n\nJob interests: {req.JobInterests}\n\nAnalyze missing skills and provide improvement suggestions."
+                        content=$"You are an expert career advisor, HR analyst, and résumé optimization specialist." +
+                        $"Your task is to:\r\n1. Analyze the user's résumé.\r\n2. Compare it against the user's job interests or target role.\r\n3. Identify missing hard skills, soft skills, and technical skills.\r\n4. Identify weak areas or red flags in the résumé.\r\n5. Suggest improvements that will increase the user's chances of getting hired.\r\n6. Recommend additional certifications, portfolio projects, or courses relevant to the target role.\r\n7. Rewrite or enhance key résumé sections if needed.\r\n\r\nReturn your output in clear, structured sections." +
+                        $"Here is a resume:\n{req.ResumeText}\n\nJob interests: {req.JobInterests}\n\n" +
+                        $"Provide the analysis using the following structure:\r\n\r\n1. **Role Target Summary**\r\n   - A brief explanation of what the target job typically requires.\r\n   - How well the candidate currently aligns with it.\r\n\r\n2. **Key Strengths Found in the Resume**\r\n   - Bullet points of strong skills, experience, and achievements.\r\n\r\n3. **Missing Skills (High Priority)**\r\n   - Important skills the target position requires but the résumé lacks.\r\n\r\n4. **Missing Skills (Nice-to-Have)**\r\n   - Additional skills that will improve competitiveness.\r\n\r\n5. **Résumé Weaknesses / Red Flags**\r\n   - Gaps, lack of measurable results, unclear responsibilities, outdated tools, etc.\r\n\r\n6. **Suggestions for Immediate Improvement**\r\n   - Specific ways to rewrite or reorganize résumé sections.\r\n\r\n7. **Recommended Learning Path**\r\n   - Certifications, courses, or portfolio projects relevant to the job interest.\r\n\r\nBe specific, concise, and tailored only to the given résumé and job interest.\r\nDo NOT invent skills that are not present in the résumé.\r\nDo NOT hallucinate experience."
                     }
                 }
             };

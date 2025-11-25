@@ -1,15 +1,19 @@
+import { CommonModule } from '@angular/common';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { Component } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 import { Router, RouterModule, RouterOutlet } from '@angular/router';
 const domain = "http://localhost:5063/";
 
 @Component({
   selector: 'app-home',
-  imports: [RouterOutlet, RouterModule, HttpClientModule],
+  imports: [RouterOutlet, RouterModule, FormsModule, HttpClientModule, CommonModule],
   templateUrl: './home.html',
   styleUrl: './home.css'
 })
 export class Home {
+  ResumeText: string = '';
+  JobInterests: string = '';
   constructor(public router: Router, public http: HttpClient) { }
   isLogged() {
     if (sessionStorage.getItem("token") != null) {
@@ -33,11 +37,9 @@ export class Home {
 
   async analyzeResume() {
     //get input values
-    const textarea = document.getElementById('resume') as HTMLTextAreaElement;
-    const input = document.getElementById('jobInterests') as HTMLInputElement;
 
-    const resume = textarea?.value.trim() ?? '';
-    const jobInterests = input?.value.trim() ?? '';
+    const resume = this.ResumeText?.trim() ?? '';
+    const jobInterests = this.JobInterests?.trim() ?? '';
 
     const analysisEl = document.getElementById('analysis');
     if (analysisEl) analysisEl.textContent = '';
