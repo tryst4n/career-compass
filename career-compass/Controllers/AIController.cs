@@ -2,6 +2,7 @@
 using System.Net.Http.Headers;
 using System.Text;
 using System.Text.Json;
+using System.Text.Json.Nodes;
 
 namespace CareerCompass.Controllers
 {
@@ -53,8 +54,14 @@ namespace CareerCompass.Controllers
             );
 
             string result = await response.Content.ReadAsStringAsync();
+            //get only the reply and not whole body
+            var json = JsonNode.Parse(result);
+            var reply = json?["choices"]?[0]?["message"]?["content"]?.ToString();
 
-            return Ok(result);
+            var raw = await response.Content.ReadAsStringAsync();
+            Console.WriteLine("OpenAI Response: " + raw);
+
+            return Ok(new { reply });
         }
     }
 }

@@ -5,6 +5,37 @@
     "version": "1.0"
   },
   "paths": {
+    "/api/AI/analyze": {
+      "post": {
+        "tags": [
+          "AI"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ResumeRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ResumeRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ResumeRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/api/CVs": {
       "get": {
         "tags": [
@@ -307,6 +338,20 @@
             "nullable": true
           },
           "passwordConfirm": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ResumeRequest": {
+        "type": "object",
+        "properties": {
+          "resumeText": {
+            "type": "string",
+            "nullable": true
+          },
+          "jobInterests": {
             "type": "string",
             "nullable": true
           }

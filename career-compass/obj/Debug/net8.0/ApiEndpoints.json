@@ -1,5 +1,21 @@
 [
   {
+    "ContainingType": "CareerCompass.Controllers.AIController",
+    "Method": "AnalyzeResume",
+    "RelativePath": "api/AI/analyze",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "CareerCompass.Controllers.AIController\u002BResumeRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "CareerCompass.Controllers.CVsController",
     "Method": "GetCV",
     "RelativePath": "api/CVs",

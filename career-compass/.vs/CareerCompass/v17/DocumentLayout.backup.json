@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\2161845\\Documents\\GitHub\\caesarsResume\\career-compass\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{991C4844-C711-4B15-9E17-EA5DE24751C0}|CareerCompass.csproj|c:\\users\\2161845\\documents\\github\\caesarsresume\\career-compass\\controllers\\aicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{991C4844-C711-4B15-9E17-EA5DE24751C0}|CareerCompass.csproj|solutionrelative:controllers\\aicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AIController.cs",
+              "DocumentMoniker": "C:\\Users\\2161845\\Documents\\GitHub\\caesarsResume\\career-compass\\Controllers\\AIController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AIController.cs",
+              "ToolTip": "C:\\Users\\2161845\\Documents\\GitHub\\caesarsResume\\career-compass\\Controllers\\AIController.cs",
+              "RelativeToolTip": "Controllers\\AIController.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAtwD0AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T17:42:44.553Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

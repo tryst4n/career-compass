@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cDOrnVp1YIY=",
+  "dgSpecHash": "OIeIM3H4b78=",
   "success": true,
-  "projectFilePath": "C:\\Users\\2161845\\Documents\\GitHub\\career-compass\\career-compass\\CareerCompass.csproj",
+  "projectFilePath": "C:\\Users\\2161845\\Documents\\GitHub\\caesarsResume\\career-compass\\CareerCompass.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\2161845\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\2161845\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

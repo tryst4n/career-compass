@@ -56,7 +56,15 @@
         </div>
          <div class="col">
             <label for="jobInterests">Job interests</label><br>
-            <input name="jobInterests" type="Job interests">
+            <input id="jobInterests" name="jobInterests" type="text" placeholder="e.g. Frontend developer, Data analyst">
+            <div style="margin-top:1rem; display:flex; gap:0.5rem;">
+                <button class="btn btn-primary" (click)="analyzeResume()">Analyze resume</button>
+                <button class="btn btn-secondary" type="button" onclick="document.getElementById('resume').value=''; document.getElementById('jobInterests').value=''; document.getElementById('analysis').textContent='';">Clear</button>
+            </div>
+            <div style="margin-top:1rem;">
+                <label for="analysis">Analysis</label>
+                <pre id="analysis" style="white-space:pre-wrap;background:#fff;padding:1rem;border-radius:4px;min-height:200px;overflow:auto;"></pre>
+            </div>
         </div>
     </div>
 </main>
