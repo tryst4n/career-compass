@@ -1,0 +1,38 @@
+
+header {
+    height: 8vh;
+}
+
+header .row {
+    height: 100%;
+    margin: 0.5rem;
+}
+
+header .row .col {
+    background-color: rgba(211, 211, 211, 0.34);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .row .col:hover {
+    transform: scale(1.05);
+    transition: transform 0.8s ease;
+    cursor: pointer;
+}
+
+main{
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gradient-text {
+  background: linear-gradient(120deg, #79ffed, #00c6ff, #3d07ff);
+  -webkit-background-clip: text; /* clip the background to the text */
+  -webkit-text-fill-color: transparent; /* make the text itself transparent */
+  font-size: 2rem;
+  font-weight: bold;
+}

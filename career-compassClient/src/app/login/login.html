@@ -16,7 +16,7 @@
     <div class="row justify-content-center align-items-center">
         <div class="col-12 col-md-6 col-lg-4">
             <div class="card p-4 shadow-sm">
-                <h2 class="text-center mb-4">Career Compass</h2>
+                <img style="height: 200px; width: 200px; align-self: center;" src="assets/images/logo.png" alt="">
                 <form>
                     <div class="mb-3">
                         <input type="text" name="loginUsername" id="loginUsername" class="form-control"
@@ -26,7 +26,7 @@
                         <input type="password" name="loginPassword" id="loginPassword" class="form-control"
                             placeholder="Password" [(ngModel)]="loginPassword">
                     </div>
-                    <button (click)="login()" class="btn btn-primary w-100">Login</button>
+                    <button (click)="login()" class="gradient-btn btn btn-primary w-100">Login</button>
                     <div class="text-center mt-3">
                         Don't have an account?
                         <a [routerLink]="['/register']" class="text-primary text-decoration-underline">Create an account</a>

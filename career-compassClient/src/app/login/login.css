@@ -27,3 +27,22 @@ main .row {
     align-items: center;
     justify-content: center;
 }
+
+.gradient-btn {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  cursor: pointer;
+
+  background: linear-gradient(90deg, #00c6ff, #0072ff);
+
+  transition: filter 0.3s ease, transform 0.2s ease;
+}
+.gradient-btn:hover {
+
+  filter: brightness(1.2);
+  transform: translateY(-1px);
+}

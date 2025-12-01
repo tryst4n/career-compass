@@ -40,8 +40,8 @@ export class Register {
 
       let y = await lastValueFrom(this.http.post<any>(domain + "api/Users/Login", loginDTO));
       console.log(y);
-      sessionStorage.setItem("token", x.token);
-      sessionStorage.setItem("username", x.username);
+      sessionStorage.setItem("token", y.token);
+      sessionStorage.setItem("username", y.username);
 
       this.router.navigate(['/home']).then(() => {
         window.location.reload();

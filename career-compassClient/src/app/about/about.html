@@ -1,1 +1,33 @@
-<p>about works!</p>
+<header class="container">
+    <div class="row align-items-center d-flex flex-nowrap">
+        <div class="col mx-2" [routerLink]="['/home']">
+            Home
+        </div>
+        <div class="col mx-2" [routerLink]="['/about']">
+            About
+        </div>
+        @if (isLogged()){
+        <div class="col mx-2" style="background-color: rgba(211, 211, 211, 0.568);">
+            {{getUsername()}}
+        </div>
+        }
+        @if(!isLogged()){
+        <div class="col mx-2" [routerLink]="['/login']">
+            Login
+        </div>
+        }
+    </div>
+</header>
+
+<main class="container my-5">
+  <div class="row justify-content-center">
+    <div class="col-12 col-md-8 col-lg-6">
+      <div class="card p-4 shadow-sm">
+        <h2 class="gradient-text text-center mb-4">About Caesar's Resume</h2>
+        <p>
+          Caesar’s Resume is an AI-powered web application that leverages GPT-4 via the OpenAI API to analyze Resumes against job and internship postings, identifying missing or weak skills and providing actionable AI-driven improvement suggestions. Advanced prompt engineering techniques are applied to enhance the quality of recommendations, helping users optimize their resumes for better alignment with career opportunities.
+        </p>
+      </div>
+    </div>
+  </div>
+</main>

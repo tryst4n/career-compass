@@ -28,3 +28,29 @@ main{
     align-items: center;
     justify-content: center;
 }
+
+.gradient-btn {
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  cursor: pointer;
+
+  background: linear-gradient(90deg, #00c6ff, #0072ff);
+
+  transition: filter 0.3s ease, transform 0.2s ease;
+}
+.gradient-btn:hover {
+
+  filter: brightness(1.2);
+  transform: translateY(-1px);
+}
+
+.gradient-text {
+  background: linear-gradient(120deg, #79ffed, #00c6ff, #3d07ff);
+  -webkit-background-clip: text; /* clip the background to the text */
+  -webkit-text-fill-color: transparent; /* make the text itself transparent */
+  font-size: 2rem;
+  font-weight: bold;
+}
